@@ -1,0 +1,54 @@
+.swiper {
+  width: 100% !important;
+}
+
+.Testimonial_wrapper {
+  background-color: rgba(199, 246, 242, 0.347);
+  z-index: 1;
+  position: relative;
+  padding: 80px 13% !important;
+}
+
+.Testimonial_wrapper::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  background: url("../../assets/Layer_1-2.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: 0.05;
+}
+
+.Testimonial_Container {
+  padding: 30px;
+  display: flex;
+  gap: 15px;
+  flex-direction: column;
+  background-color: rgba(199, 246, 242, 0.347);
+  margin-top: 50px;
+  border: 0.5px solid rgba(103, 248, 236, 0.616);
+  border-radius: 12px;
+}
+
+.Testimonial_Container .Profile {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+
+.Testimonial_Container .Profile img {
+  height: 90px;
+  width: 90px;
+  border-radius: 50%;
+}
+
+.Testimonial_Container p {
+  font-size: 15px;
+  font-weight: 500;
+  color: black;
+}
