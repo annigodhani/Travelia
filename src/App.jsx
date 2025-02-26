@@ -9,10 +9,7 @@ import Nav from "./Components/Nav/Nav";
 import Searches from "./Components/Searches/Searches";
 import Testimonial from "./Components/Testimonial/Testimonial";
 import Trips from "./Components/Trips/Trips";
-// import BookNow from "./Components/Book/BookNow";
-// import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-// import Trips from "./Components/Trips/Trips";
-
+import BookNow from "./Components/Book/BookNow";
 
 function App() {
   return (
@@ -26,21 +23,17 @@ function App() {
       <Searches />
 
       <div className="main">
-        <About/>
+        <About />
       </div>
-      <Testimonial/>
-      <Destination/>
+      <Testimonial />
+      <Destination />
       <div className="main">
-      <CallToAction/>
+        <CallToAction />
       </div>
-      <Footer/>
-
-      {/* <Router>
-      <Routes>
-        <Route path="/trips" element={<Trips />} />
-        <Route path="/book-now" element={<BookNow />} />
-      </Routes>
-    </Router> */}
+      <div className="main">
+        <BookNow />
+      </div>
+      <Footer />
     </>
   );
 }

@@ -45,14 +45,7 @@ function Trips() {
 
               <div className={TripsCSS.Pricing}>
                 <span className={TripsCSS.Price}>$1,300</span>
-                {/* <button className={TripsCSS.book}>Book Now</button> */}
-                <button
-  className={TripsCSS.book}
-  onClick={() => (window.location.href = "/book-now")}
->
-  Book Now
-</button>
-
+                <button className={TripsCSS.book}><a href="#book">Book Now</a></button>
               </div>
             </div>
           </div>
@@ -85,7 +78,7 @@ function Trips() {
 
               <div className={TripsCSS.Pricing}>
                 <span className={TripsCSS.Price}>$1,100</span>
-                <button className={TripsCSS.book}>Book Now</button>
+                <button className={TripsCSS.book}><a href="#book">Book Now</a></button>
               </div>
             </div>
           </div>
@@ -118,7 +111,7 @@ function Trips() {
 
               <div className={TripsCSS.Pricing}>
                 <span className={TripsCSS.Price}>$1,500</span>
-                <button className={TripsCSS.book}>Book Now</button>
+                <button className={TripsCSS.book}><a href="#book">Book Now</a></button>
               </div>
             </div>
           </div>
@@ -151,7 +144,7 @@ function Trips() {
 
               <div className={TripsCSS.Pricing}>
                 <span className={TripsCSS.Price}>$1,900</span>
-                <button className={TripsCSS.book}>Book Now</button>
+                <button className={TripsCSS.book}><a href="#book">Book Now</a></button>
               </div>
             </div>
           </div>
@@ -184,7 +177,7 @@ function Trips() {
 
               <div className={TripsCSS.Pricing}>
                 <span className={TripsCSS.Price}>$5,300</span>
-                <button className={TripsCSS.book}>Book Now</button>
+                <button className={TripsCSS.book}><a href="#book">Book Now</a></button>
               </div>
             </div>
           </div>
@@ -217,7 +210,7 @@ function Trips() {
 
               <div className={TripsCSS.Pricing}>
                 <span className={TripsCSS.Price}>$2,000</span>
-                <button className={TripsCSS.book}>Book Now</button>
+                <button className={TripsCSS.book}><a href="#book">Book Now</a></button>
               </div>
             </div>
           </div>
@@ -250,7 +243,7 @@ function Trips() {
 
               <div className={TripsCSS.Pricing}>
                 <span className={TripsCSS.Price}>$1,000</span>
-                <button className={TripsCSS.book}>Book Now</button>
+                <button className={TripsCSS.book}><a href="#book">Book Now</a></button>
               </div>
             </div>
           </div>
@@ -283,7 +276,7 @@ function Trips() {
 
               <div className={TripsCSS.Pricing}>
                 <span className={TripsCSS.Price}>$21,00</span>
-                <button className={TripsCSS.book}>Book Now</button>
+                <button className={TripsCSS.book}><a href="#book">Book Now</a></button>
               </div>
             </div>
           </div>

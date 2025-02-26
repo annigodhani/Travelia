@@ -80,11 +80,13 @@
 .nav_btns .CallBtn i {
   font-size: 25px;
   color: rgb(231, 76, 60);
+  margin-top: 23px;
 }
 
 .nav_btns .CallBtn p {
   font-size: 18px;
   font-weight: 600;
+  margin-top: 20px;
 }
 
 .nav_btns .CallBtn p small {

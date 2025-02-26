@@ -1,6 +1,6 @@
 .CallToAction_wrapper{
     padding: 140px 8% !important;
-    background: url("../../assets/landscape-Panorama-01.jpg");
+    background: url("../../assets/landscape-Panorama-04.jpg");
     background-size: cover;
     background-position: top;
     background-repeat: no-repeat;
@@ -23,8 +23,12 @@
     z-index: -1;
 }
 
-
 .CallToAction_wrapper h2{
     font-size: 40px;
     line-height: 45px;
+}
+
+.CallToAction_wrapper p{
+    font-size: 18px;
+    color: white;
 }
